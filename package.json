@@ -1,0 +1,28 @@
+{
+    "name": "flat-light",
+    "displayName": "Flat Light",
+    "description": "A lith theme for Visual Studio Code, It looks like flat paper.",
+    "version": "0.0.1",
+    "publisher": "xcyl",
+    "keywords": ["vscode", "light", "flat", "flat light"],
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "flat light",
+                "uiTheme": "vs",
+                "path": "./themes/flat-light-color-theme.json"
+            }
+        ]
+    },
+    "homepage": "https://github.com/xcyl/flat-light",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xcyl/flat-light"
+    }
+}
