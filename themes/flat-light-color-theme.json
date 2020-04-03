@@ -38,10 +38,15 @@
 		"menu.background": "#f5f5f5",
 		"panel.border": "#f5f5f5",
 		"editor.background": "#f5f5f5",
-		"focusBorder": "#424242",
+		"focusBorder": "#bbbbbb",
 		// "activityBar.activeBorder": "#424242",
 		"activityBarBadge.background": "#424242",
-		"activityBarBadge.foreground": "#ffffff"
+		"activityBarBadge.foreground": "#ffffff",
+		"list.activeSelectionBackground": "#bbbbbb",
+		"list.activeSelectionForeground": "#000000",
+		"button.background": "#bbbbbb",
+		"settings.modifiedItemIndicator": "#bbbbbb",
+		"editorGutter.modifiedBackground": "#bbbbbb"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
