@@ -49,7 +49,8 @@
 		"editorGutter.modifiedBackground": "#bbbbbb",
 		"peekView.border": "#bbbbbb",
 		"peekViewResult.selectionBackground": "#bbbbbb",
-		"peekViewResult.selectionForeground": "#000000"
+		"peekViewResult.selectionForeground": "#000000",
+		"editor.rangeHighlightBackground": "#bbbbbb"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
