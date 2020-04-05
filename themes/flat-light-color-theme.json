@@ -46,7 +46,10 @@
 		"list.activeSelectionForeground": "#000000",
 		"button.background": "#bbbbbb",
 		"settings.modifiedItemIndicator": "#bbbbbb",
-		"editorGutter.modifiedBackground": "#bbbbbb"
+		"editorGutter.modifiedBackground": "#bbbbbb",
+		"peekView.border": "#bbbbbb",
+		"peekViewResult.selectionBackground": "#bbbbbb",
+		"peekViewResult.selectionForeground": "#000000"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
