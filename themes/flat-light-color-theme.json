@@ -56,7 +56,9 @@
 		"list.focusBackground": "#e8e8e8",
 		"peekViewEditorGutter.background": "#f5f5f5",
 		"peekViewEditor.background": "#f5f5f5",
-		"peekViewResult.background": "#f5f5f5"
+		"peekViewResult.background": "#f5f5f5",
+		"progressBar.background": "#424242",
+		"welcomePage.buttonHoverBackground": "#bbbbbb"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
