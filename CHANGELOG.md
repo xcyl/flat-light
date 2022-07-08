@@ -6,17 +6,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 #
 
-## <u>New Releases.</u>
+## <b>New Release (Version 1.1.0)</b>
+
 
 ### [changed]
 
 <ul>
-<li>Changed the background to a more grayish color.</li>
+<li>Changed the background to a more grayish color to avoid eye strain.</li>
 </ul>
 
 ### [Added]
 
 <ul>
 <li> Hover background for the editor tabs.</li>
-<li> Light borders to the sidebar, terminal and status bar.</li>
+<li> Thin borders to the sidebar, terminal and status bar.</li>
+<li> Better syntax highlighting .</li>
+<li>New terminal color support</li>
+<li> Italics support all round.</li>
 </ul>

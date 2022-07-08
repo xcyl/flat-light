@@ -61,7 +61,23 @@
 		"peekViewResult.background": "#eeeee2",
 		"progressBar.background": "#424242",
 		"statusBar.border": "#0000000b",
-		"sideBarSectionHeader.foreground": "#000"
+		"sideBarSectionHeader.foreground": "#000",
+		"terminal.ansiWhite": "#FFFFFF",
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiBlue": "#6182B8",
+		"terminal.ansiCyan": "#39ADB5",
+		"terminal.ansiGreen": "#91B859",
+		"terminal.ansiMagenta": "#7C4DFF",
+		"terminal.ansiRed": "#E53935",
+		"terminal.ansiYellow": "#FFB62C",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightBlack": "#90A4AE",
+		"terminal.ansiBrightBlue": "#6182B8",
+		"terminal.ansiBrightCyan": "#39ADB5",
+		"terminal.ansiBrightGreen": "#91B859",
+		"terminal.ansiBrightMagenta": "#7C4DFF",
+		"terminal.ansiBrightRed": "#E53935",
+		"terminal.ansiBrightYellow": "#FFB62C",
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
@@ -113,7 +129,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#098658"
+				"foreground": "#048254",
 			}
 		},
 		{
@@ -126,7 +142,8 @@
 			"name": "css tags in selectors, xml tags",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#800000"
+				"foreground": "#063e86",
+				"fontStyle": "italic ",
 			}
 		},
 		{
@@ -138,7 +155,8 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#cd6600",
+				"fontStyle": "italic "
 			}
 		},
 		{
@@ -154,7 +172,8 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#800000"
+				"foreground": "#800000",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -226,7 +245,8 @@
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#800000"
+				"foreground": "#800000",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -259,13 +279,14 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#07079d",
+				"fontStyle": "italic bold "
 			}
 		},
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#07079d"
 			}
 		},
 		{
@@ -284,7 +305,7 @@
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#a31515"
+				"foreground": "#810505",
 			}
 		},
 		{
@@ -306,7 +327,7 @@
 				"string.quoted.double.handlebars"
 			],
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#0000ff",
 			}
 		},
 		{
@@ -332,7 +353,7 @@
 				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
 			}
 		},
 		{
@@ -346,7 +367,8 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#0451a5"
+				"foreground": "#0451a5",
+				"fontStyle": " italic "
 			}
 		},
 		{
@@ -359,7 +381,7 @@
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#b20303"
 			}
 		},
 		{
@@ -367,19 +389,21 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#0451a5"
+				"foreground": "#0451a5",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#0000ff",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#0000ff",
 			}
 		},
 		{
@@ -402,7 +426,8 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#0000ff",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -447,7 +472,8 @@
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#0000ff",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -460,7 +486,8 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#795E26"
+				"foreground": "#795E26",
+				"fontStyle": "  bold"
 			}
 		},
 		{
@@ -501,7 +528,8 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#267f99"
+				"foreground": "#d8a306",
+				"fontStyle": "italic "
 			}
 		},
 		{
@@ -529,7 +557,8 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#AF00DB"
+				"foreground": "#bd63e3",
+				"fontStyle": " italic  "
 			}
 		},
 		{
@@ -580,7 +609,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#d16969",
 			}
 		},
 		{
@@ -626,6 +655,46 @@
 			"settings": {
 				"foreground": "#000000"
 			}
-		}
+		},
+		{
+			"scope": [
+				"markup.error",
+				"invalid",
+				"invalid.illegal",
+				"invalid.deprecated",
+				"markup.italic",
+				"fenced_code.block.language.markdown",
+				"fenced_code.block.language",
+				"markup.raw.inner.restructuredtext",
+				"markup.fenced_code.block.markdown punctuation.definition.markdown",
+				"keyword.expressions-and-types.swift",
+				"keyword.other.this",
+				"variable.language",
+				"variable.language punctuation.definition.variable.php",
+				"variable.other.readwrite.instance.ruby",
+				"variable.parameter.function.language.special",
+				"meta.attribute.src.html",
+				"meta.decorator variable.other.readwrite",
+				"meta.decorator variable.other.property",
+				"string",
+				"entity.name.function.target.makefile",
+				"entity.name.section.toml",
+				"entity.name.tag.yaml",
+				"variable.other.key.toml",
+			],
+			"settings": {
+				"foreground": "#9e8667",
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
 	]
 }
