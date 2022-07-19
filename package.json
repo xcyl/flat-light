@@ -2,7 +2,7 @@
     "name": "flat-light",
     "displayName": "Flat Light",
     "description": "A light theme for Visual Studio Code, It looks like flat paper.",
-    "version": "0.0.9",
+    "version": "0.1.1",
     "publisher": "xcyl",
     "keywords": ["vscode", "light", "flat", "flat light"],
     "engines": {
