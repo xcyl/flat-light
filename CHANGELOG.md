@@ -1,13 +1,10 @@
 # Change Log
 
-All notable changes to the "flat-dark-plus" extension will be documented in this file.
+All notable changes to the "flat-light" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-#
-
-## <b>New Release (Version 1.1.0)</b>
-
+## `<b>`New Release (Version 1.1.0)`</b>`
 
 ### [changed]
 
